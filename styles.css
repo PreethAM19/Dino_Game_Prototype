@@ -30,8 +30,10 @@ body {
     width: 20px;
     height: 50px;
     position:relative;
+    border: 5px solid grey;
+    border-radius: 12px;
     background-color: black;
-    top: 150px;
+    top: 140px;
 }
 
 img{
@@ -54,9 +56,11 @@ img{
 #block{
     width: 20px;
     height: 20px;
+    border: 5px solid black;
+    border-radius: 12px;
     position: relative;
     background-color: grey;
-    top: 130px;
+    top: 110px;
     left: 500px;
     animation: ob 1s infinite linear;
 }
